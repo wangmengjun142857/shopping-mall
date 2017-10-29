@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin:0;
+}
+#center{
+	width: 1124px;
+	height:1320px;
+	/*border: 1px solid black;*/
+	margin: auto;
+	/*205 676 */
+	/* 左侧高 38 偏左105  距离30 右侧58偏右108 */
+	/*138*18*/
+	/*background-color: darkblue;*/
+	/*overflow: hidden;*/
+}
+#center_left{
+	width:205px;
+	height:850px;
+	margin-left: 105px;
+	margin-top:70px; 
+	/*   左侧div高度待调至1200左右*/
+	/*border: 1px solid red;*/
+	float: left;
+	/*overflow: hidden;*/
+}
+#center_right{
+	width:676px;
+	height:1140px;
+	margin-left: 30px;
+	margin-top:70px;
+	/*   左侧div高度待调至1200左右*/
+	/*border: 1px solid green;*/
+	float: left;
+	overflow: hidden;
+}
+.left_bg{
+	width:205px;
+	height:54px;
+	background-image: url(images/feature2.jpg);
+}
+.left_bigfont{
+	width:205px;
+	height:38px;
+	color:#35CCF8;
+/*	background-image: url(images/feature.jpg);*/
+}
+.left_bg_font{
+	width:170px;
+	height:50%;
+	font-size: 17px;
+	/*border: 1px solid black;*/
+	/*font-weight: bold;*/
+	position: relative;
+	top:8px;
+	left:15px;
+}
+#CARRELLO{
+		margin-top: 30px;
+}
+.left_bt_font{
+	width:140px;
+	height:50px;
+	line-height: 20px;
+	font-family: Calibri;
+	/*border: 1px solid black;*/
+	/*font-weight: bold;*/
+	position: relative;
+	top:2px;
+	left:15px;
+}
+.left_bigfont>.left_bg_font{
+	/*border-bottom:1px solid black;*/
+	font-size: 18px;
+}
+.li{
+	border-bottom:1px dashed black;
+	border--bottom-width: 120px;
+	border--bottom-height: 120px;
+}
+.li>ol{
+	position: relative;
+	left:20px;
+}
+.li>ol>li{
+	list-style: none;
+	line-height: 25px;
+	font-family: Calibri;
+}
+.li>ol>li>span{
+	color: red;
+}
+.li_2{
+	margin-left: 8px;
+}
+.li_2>span{
+	color: red;
+}
+.right_bg{
+	width:676px;
+	height:58px;
+	background-image: url(images/feature1.jpg);
+	float: left;
+}
+.right_9{
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*border: 1px solid red;*/
+	/*background-color: red;*/
+}
+.img_hover{
+	overflow: hidden;
+}
+.img_hover img{   
+    transition: all 1s;  
+}  
+.img_hover img:hover{  
+    transform: scale(1.2);  
+} 
+.right_9>ul{
+	clear: both;
+	list-style: none;
+}
+.right_9>ul>li{
+	/*border: 1px solid black;*/
+	width: 220px;
+	height: 340px;
+	float: left;
+}
+.ulli{
+	float: left;
+}

@@ -1,0 +1,321 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-01 19:41:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-04 08:44:14
+*/
+	body{
+		width: 1124px;
+		/*height: 326px;*/
+		background-color: #fff;
+		border: 1px solid #000;
+		margin: 0 auto;
+	}
+	span{
+		display: inline-block;
+		font-size: 12px;
+		color: #fff;
+	}
+	#login>a{
+	color: #E7E3E0;
+	text-decoration: none;
+}
+	.header{
+		height: 223px;
+		background-color: #573C27;
+	}
+	.middle{
+		width: 1124px;
+		margin: 0 auto;
+	}
+	.sale{
+		width: 909px;
+		height: 273px;
+		position: relative;
+		margin: 0 auto;
+	}
+	.sale .sale-right{
+		opacity: 0.3;/* 透明度 */
+		filter:alpha(opacity=30);/* 针对 IE8 以及更早的版本 */
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.introduce{
+		/* width: 909px; */
+		width: 920px;
+		height: 100px;
+		margin: 0px auto;
+		/* position: relative; */
+	}
+	.introduce .reward,
+	.introduce .returned,
+	.introduce .shipping,
+	.introduce .schedule{
+		display: inline-block;
+		width: 204px;
+		height: 100px;
+
+	}
+	.introduce .cont{
+		display: inline-block;
+		width: 140px;
+		height: 70px;
+		color: #FFFFFF;
+		font-family:Serif;
+		font-size: 14px;
+		position: relative;
+		left: 23px;
+		top: -12px;
+	}
+	.introduce .reward{
+		background: url(images/feature.jpg);
+		margin-right: 25px;
+	}
+	.introduce .returned{
+		background: url(images/feature1.jpg);
+		margin-right: 26px;
+	}
+	.introduce .shipping{
+		background: url(images/feature2.jpg);
+		margin-right: 26px;
+	}
+	.introduce .schedule{
+		background: url(images/feature3.jpg);
+		/* margin: 0; */
+	}
+	.introduce .int{
+		display: inline-block;
+		position: relative;
+		left: 16px;
+		top: 8px;
+		width: 60px;
+		height: 70px;
+		b/* ackground: url("images/img-sprite.png") no-repeat; */
+	}
+	.introduce .int,
+	.sellers span,
+	.prom .prom-top,
+	.prom .prom-right,.prom .prom-left,
+	.detailed .heart,.detailed .star{
+		background: url("images/img-sprite.png") no-repeat;
+	}
+	.introduce .int1{
+		background-position: -122px -6px;
+	}
+	.introduce .int2{
+		background-position: -208px 4px;
+	}
+	.introduce .int3{
+		background-position: -300px 4px;
+	}
+	.introduce .int4{
+		background-position: -387px 7px;
+	}
+	.word {
+		width: 920px;
+		height: 70px;
+		margin: 30px auto 0;
+		text-align: center;
+		border-bottom: 1px dotted #ECECEC;
+		color: #583D28;
+
+	}
+	.word .word-title{
+		font-size: 22px;
+		padding-bottom: 5px;
+	}
+
+	.sellers{
+		width: 920px;
+		height: 50px;
+		background-color: #F6EDDC;
+		margin: 31px auto;
+		font-size: 22px;
+		color: #553C28;
+		line-height: 50px;
+	}
+	.sellers span{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-position: -459px -21px;
+		position: relative;
+		left: 13px;
+		top: 8px;
+	}
+
+	.detailed{
+		margin: 0 auto;
+		width: 920px;
+		height: 311px;
+		position: relative;
+
+	}
+	.detailed .pic{
+		display: inline-block;
+		width: 204px;
+		height: 290px;
+		border: 1px solid #E7DFD1;
+
+	}
+	.detailed .div1,
+	.detailed .div2,
+	.detailed .div3{
+		margin-right: 23px;
+	}
+	.detailed .price{
+		color: #ACE4FD;
+	}
+	.detailed p{
+		text-align: center;
+		line-height: 2em;
+	}
+	.detailed .btm-left{
+		float: left;
+		background-color: #8EB374;
+		width: 105px;
+		height: 40px;
+		position: relative;
+	}
+	.detailed .btm-right{
+		float: right;
+		background-color: #DE5757;
+		width: 85px;
+		height: 40px;
+		position: relative;
+	}
+	.detailed .basket{
+		width: 25px;
+		height: 22px;
+		background: url(images/cart.png) no-repeat;
+		position: absolute;
+		top: 9px;
+		left: 2px;
+	}
+	.detailed .more{
+		width: 25px;
+		height: 24px;
+		background: url(images/arrow.png) no-repeat;
+		position: absolute;
+		top: 9px;
+		left: 2px;
+	}
+
+	.detailed .btm-word{
+		width: 75px;
+		height: 32px;
+		font-size: 12px;
+		position: absolute;
+		left: 28px;
+		top: 12px;
+	}
+	.detailed .heart{
+		width: 31px;
+		height: 26px;
+		background-position: -91px -109px;
+		position: relative;
+		left: 187px;
+		top: -200px;
+	}
+	.detailed .star{
+		width: 59px;
+		height: 36px;
+		background-position: 0 -109px;
+		position: relative;
+		left: 109px;
+		top: -274px;	
+	}
+	.prom{
+		width: 1124px;
+		height: 500px;
+		border-bottom: 7px solid #E8E3DA;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.prom .tit-pic{
+		background-color: red;
+		width: 28px;
+		height: 28px;
+		background: url(images/img-sprite.png) 
+			no-repeat -233px -152px;
+	}
+	.prom .pro-tit{
+		width: 176px;
+		height: 41px;
+		font-size: 30px;
+		color: #553C28;
+	}
+	.prom .prom-deta{
+		width: 990px;
+		height: 357px;
+		margin: 30px auto 0; 
+	}
+	.prom .prom-left,
+	.prom .prom-right{
+		width: 30px;
+		height: 30px;
+		position: relative;
+
+		top: 145px;
+	}
+	.prom .prom-left{
+		background-position: -148px -105px;
+		float: left;
+		left: -30px;
+	}
+	.prom .prom-right{
+		background-position: -182px -105px;
+		float: right;
+		right: -30px;
+	}
+	.prom .prom-deta-pub{
+		width: 158px;
+		height: 357px;
+		border: 1px solid #E7DFD1;
+		font-size: 0;//清除3px
+	}
+	.prom .prom-deta1,
+	.prom .prom-deta2,
+	.prom .prom-deta3,
+	.prom .prom-deta4{
+		margin-right: 23px;
+	}
+	.prom .prom-cont{
+		width: 158px;
+		height: 108px;
+		background-color: #F6EDDC;
+
+	}
+	.prom .prom-word{
+			width: 158px;
+			height: 62px;
+			color: #000000;
+			font-size: 18px;
+			-moz-line-height: 62px;//可使除chrome外，其他浏览器的字体居中，在chrome中会乱。
+			-ms-line-height: 62px;
+	}
+	.prom .prom-price{
+		color: #47DAF7;
+		font-size: 16px;
+	}
+	.prom .prom-cart{
+		width: 158px;
+		height: 59px;
+		background-color: #8AB071;
+	}
+	.prom .prom-cart img{
+		position: relative;
+		left: -15px;
+		top: 12px;
+	}
+	.prom .prom-top{
+		width: 58px;
+		height: 38px;
+		background-position: -149px -158px;
+		position: relative;
+		left: 51px;
+		top: -358px;
+	}
+

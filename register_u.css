@@ -1,0 +1,43 @@
+/*register.css*/
+<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		#all{
+			width: 1124px;
+			height: 460px;
+			background-color: white;
+			margin: auto;
+			/*border: 1px solid black;*/
+		}
+		/*#center_top,#center_mid，#center_bottom{
+			margin: auto;
+		}*/
+		#all .register_u{
+			width: 800px;
+			height: 330px;
+			margin: 34px auto;
+			font-size: 18px;
+		}
+		.register_u input[type=text],
+		.register_u input[type=password] {
+			width: 600px;
+			height: 40px;
+			margin: 10px auto;
+			margin-left: 30px;
+		}
+		.register_u input[type=Submit] {
+			width: 200px;
+			height: 50px;
+			background-color: #E05B5B;
+			margin:20px 0 0 40%;
+		}
+		#center_bottom{
+			width:910px;
+			height:50px;
+			/*margin-top: 30px;*/
+			background-color: white;
+			margin:auto;
+		}
+	</style>

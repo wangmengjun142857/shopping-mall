@@ -1,0 +1,58 @@
+/* admin_reg.css */
+*{
+	margin: 0;
+	padding: 0;
+}
+.admin_reg{
+	width:1124px;
+	height:320px;
+	/* background-color: #99C2E2; */
+	color:#907E70;
+}
+table{
+	font-size: 14px;
+	/* margin:auto; */
+	margin-left: 370px;
+}
+.admin_reg td,.admin_reg th{
+	height: 50px;
+}
+.admin_reg th{
+	text-align: left;
+	font-size: 20px;
+}
+.one{
+	text-align: right;
+}
+.two{
+	text-align: left;
+}
+span{
+	color: red;
+}
+input{
+	height: 25px;
+}
+input:hover{
+	border: 1px solid #573C27;
+}
+.two{
+	text-align:left;
+}
+.two input{
+	width: 70px;
+	color:#907E70;
+}
+.admin_reg .three{
+}
+.two input:hover{
+	border: 1px solid red;
+	color: black;
+}
+select{
+	height: 25px;
+	color:#907E70;
+}
+select:hover{
+	border: 1px solid #573C27;
+}

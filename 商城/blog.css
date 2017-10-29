@@ -1,0 +1,78 @@
+/*blog.css*/
+span{
+	 		display: inline-block;
+	 	}
+		.box{
+			width: 1124px;
+			height: 1200px;
+			margin:auto;
+			/*background-color: red;*/
+			/*border: 1px solid #000;*/
+		}
+		.blog{
+			margin:20px 20px 0px;
+			float: left;
+		}
+		#blog1,#blog3,#blog5{
+			margin-left: 90px;
+		}
+		.small{
+			width:88px;
+			height:88px;
+		}
+		.N1{
+
+			font-family:"Calibri";
+			width: 450px;
+			height: 100PX;
+			color: #B6B1A3
+		}
+		.N2{
+			font-family:"Calibri";
+			color:#E05B5B;
+			font-weight:600;
+			margin-top:-20px;
+		}
+		.N3{
+			font-family:"Calibri" ; 
+			font-weight: 600;
+
+		}
+		.m1{
+			width:450px;
+			height:60px;
+			background-image: url(images/feature.jpg);
+			position: relative;
+			margin-top: -4px;
+			font-size: 12px;
+			color: #fff;
+			line-height: 60px;
+		}
+		
+		.m1 .m1-bg{
+			width: 88px;
+			height: 88px;
+			border-radius: 50%;
+			border: 2px solid #fff;
+			position: absolute;
+			left: 10px;
+			top: -14px;
+		}
+		.m1 .admin{
+			width: 11px;
+			height: 11px;
+			background: url(images/img-sprite.png) no-repeat -123px -232px;
+			margin-left:90px;
+		}
+		.m1 .calendar{
+			width: 12px;
+			height: 16px;
+			background: url(images/img-sprite.png) no-repeat -145px -227px;
+			margin-left:25px;
+		}
+		.m1 .comment{
+			width: 12px;
+			height: 12px;
+			background: url(images/img-sprite.png) no-repeat -167px -228px;
+			margin-left:25px;
+		}

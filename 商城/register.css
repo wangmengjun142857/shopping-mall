@@ -1,0 +1,38 @@
+/*register.css*/
+<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		#all{
+			width: 1124px;
+			height: 460px;
+			background-color: white;
+			margin: auto;
+			/*border: 1px solid black;*/
+		}
+		/*#center_top,#center_mid，#center_bottom{
+			margin: auto;
+		}*/
+		#center_top{
+			width:910px;
+			height:250px;
+			background-color: white;
+			margin:auto;
+		}
+		#center_mid{
+			width:910px;
+			height:210px;
+			/*margin-top: 30px;*/
+			background-color: white;
+			margin:auto;
+		}
+
+		#center_bottom{
+			width:910px;
+			height:50px;
+			/*margin-top: 30px;*/
+			background-color: white;
+			margin:auto;
+		}
+	</style>

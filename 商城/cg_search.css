@@ -1,0 +1,44 @@
+/*cg_search.css*/
+*{
+	padding: 0;
+	margin:0;
+}
+.search-content,.main-wrap,.result-content,.list-page{
+	margin: auto;
+}
+.container_clearfix{
+	margin: auto;
+	margin-top: 50px;
+	width:800px;
+}
+.search-wrap{
+	width:60%;
+	margin:auto;
+	margin-top: 50px;
+}
+.result-wrap{
+	width:45%;
+	margin:auto;
+	margin-top: 50px;
+}
+#div1{
+	margin: auto;
+	background:#999999; 
+	display:none;
+	width:100px;
+	height:60px;
+	float: left;
+	position: relative;
+	left:40%;
+	top: 40%;
+}
+#btn1{
+	cursor: pointer;
+}
+#bt1,#bt2{
+	 width:35px; 
+	 height:25px;
+	 font-size: 20px;
+	 margin-left:6px;
+	 margin-top: 10PX;
+}
